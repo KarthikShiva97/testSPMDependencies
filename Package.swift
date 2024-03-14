@@ -21,12 +21,12 @@ let package = Package(
             .library(
                 name: "OMSDK_Fox",
                 targets: ["OMSDK_Fox"]
-            ),
-        
-            .library(
-                name: "GoogleCast",
-                targets: ["GoogleCast"]
             )
+        
+//            .library(
+//                name: "GoogleCast",
+//                targets: ["GoogleCast"]
+//            )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -51,9 +51,9 @@ let package = Package(
                 path: "./Sources/OMSDK_Fox.xcframework"
             ),
         
-            .binaryTarget(
-                name: "GoogleCast",
-                path: "./Sources/GoogleCast.xcframework"
-            )
+//            .binaryTarget(
+//                name: "GoogleCast",
+//                path: "./Sources/GoogleCast.xcframework"
+//            )
     ]
 )
